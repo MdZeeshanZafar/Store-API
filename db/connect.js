@@ -6,8 +6,9 @@ const connectDB = (url) => {
     useCreateIndex: true,
     useFindAndModify: false,
     useUnifiedTopology: true,
+    family: 4,
   },
-  console.log('DB connected..')
+  //console.log('DB connected..')
   )
   
 }
